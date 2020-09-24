@@ -14,6 +14,7 @@ class FizzBuzzSpec extends AnyFlatSpec with should.Matchers {
   "FizzBuzz" should "return an Fizz for multiples of three" in {
     var FizzBuzz = new FizzBuzz
     FizzBuzz.convert(3) should be("Fizz")
+    FizzBuzz.convert(6) should be("Fizz")
   }
 
 }
